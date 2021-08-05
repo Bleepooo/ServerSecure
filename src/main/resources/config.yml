@@ -1,0 +1,24 @@
+#ServerSecure v1.4
+#Use {player} as a placeholder for the players name.
+
+#Deop On Leave
+deop: {
+    #Do we want to deop the player when they leave?
+    removeop: true,
+    #The message that we send any online Ops when the player is is De-Opped.
+    opmessage: '&b[ServerSecure] &4{player} has been deoped! &3Reason: Disconnected',
+    #The message that we send console when the player is De-Opped.
+    consolemessage: "&b[ServerSecure] &4{player} has been De-Opped! &3Reason: Disconnected"
+}
+
+#Remove Creative On Join
+creative: {
+    #Do we want to remove the players creative on join?
+    removecreative: true,
+    #The message that we send to online Ops when creative is removed.
+    opmessage: "&b[ServerSecure] &4{player}'s gamemode has been set to survival!",
+    #The message that we send to console when the player has creative removed.
+    consolemessage: "&b[ServerSecure] &4{player}'s gamemode has been set to survival!",
+    #The message that we want to send to the player when the player has creative removed
+    playermessage: "&b[ServerSecure] &6How did you even get creative? Anyway, Here's Survival back!"
+}

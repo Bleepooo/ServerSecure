@@ -1,0 +1,7 @@
+name: ServerSecure
+version: ${project.version}
+main: dev.bleepo.serversecure.ServerSecure
+api-version: 1.17
+authors: [ Bleepo ]
+description: Keep your servers secure!
+website: https://bleepotrack.xyz
